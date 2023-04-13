@@ -23,119 +23,119 @@ Phishing – When someone uses email or text to steal someone’s information/cr
 -	 Outliers – Invoice scam (purchased scam), HOAX (misleading information), Prepending (modify URL, wrong information in URL).
 
 Malware- Malicious Unauthorized code, executed on machine that does unauthorized affects
-•	Virus – unauthorized code, attaches to host app/file/executable
-o	Activated by the host
-o	Virus Types:
-	Macro – mini application (ex. small functions in a large application) 
-	Boot-sector – infects boot up, harddrive SSD, takes over hardware
-	Attachment – ex. Email
-	File infector – downloadable files
-	Polymorphic – slip under radar, constantly changes
-	Network – virus comes in through a network.
+-	Virus – unauthorized code, attaches to host app/file/executable
+-	Activated by the host
+-	Virus Types:
+-	Macro – mini application (ex. small functions in a large application) 
+-	Boot-sector – infects boot up, harddrive SSD, takes over hardware
+-	Attachment – ex. Email
+-	File infector – downloadable files
+-	Polymorphic – slip under radar, constantly changes
+-	Network – virus comes in through a network.
 
 •	Worms
-o	Self-sufficient (no need host activation)
-o	Self-replicating
-o	Resource consumption (network bandwidth, storage, memory)
-•	Fileless
-o	Stealthy
-o	Runs in memory
-•	Rootkit
-o	Takes control of computer
-o	Privileged access
-o	Difficult to detection
-o	Low-level access
-•	Keyloggers
-o	Byproduct of malware
-o	Capture keyboard input
-o	Can be physical attacks (USB’s)
-•	Backdoors 
-o	Like a trojan
-o	Software-based
-	Malware
-	Applications
-•	Logic Bombs
-o	Sits dormant.
-o	Utilizes an event trigger
-	Time
-	Date
-	Action/inaction
-•	Ransomware
-o	Crypto malware
-o	Locks computer
-o	Asking for payment in return
-•	Bots
-o	Collection of exploited devices
-o	Trojans and RATs help to construct
-o	Used in command and control or C2	
-•	Trojan
-o	Looks safe
-o	Delivers malware
-o	First step
-o	Paves the way for keyloggers, RAT (remote access)
-•	PuPs
-o	Unwanted Software
-o	Installer bundles
+-	Self-sufficient (no need host activation)
+-	Self-replicating
+-	Resource consumption (network bandwidth, storage, memory)
+-	Fileless
+-	Stealthy
+-	Runs in memory
+-	Rootkit
+-	Takes control of computer
+-	Privileged access
+-	Difficult to detection
+-	Low-level access
+-	Keyloggers
+-	Byproduct of malware
+-	Capture keyboard input
+-	Can be physical attacks (USB’s)
+-	Backdoors 
+-	Like a trojan
+-	Software-based
+-	Malware
+-	Applications
+-	Logic Bombs
+-	Sits dormant.
+-	Utilizes an event trigger
+-	Time
+-	Date
+-	Action/inaction
+-	Ransomware
+-	Crypto malware
+-	Locks computer
+-	Asking for payment in return
+-	Bots
+-	Collection of exploited devices
+-	Trojans and RATs help to construct
+-	Used in command and control or C2	
+-	Trojan
+-	Looks safe
+-	Delivers malware
+-	First step
+-	Paves the way for keyloggers, RAT (remote access)
+-	PuPs
+-	Unwanted Software
+-	Installer bundles
 
 
 Password Attacks
-	Used against authentication systems
-	Automates the process
+-	Used against authentication systems
+-	Automates the process
 
-	Brute Forces Attack (slow time)
+-	Brute Forces Attack (slow time)
 
-o	Guessing attack
-o	Every possible combination
-	0000
-	0001
-o	Dictionary
-	Brute force type attack
-	Uses large dictionary list
-	Rainbow Tables (medium time)
-o	Use precomputed chains (calculations done ahead of time)
-o	Chains are stored in tables
-o	Time reduction
-o	Tables can be vary large files
-	Spraying
-o	Cracking multiple accounts at once
-	Adding Salt
-o	Random data added to a password when hashing (doesn’t work with rainbow tables)
-	Salting the Hash
-o	Each user gets a different random hash
-	Storing Passwords
-o	Use a hash (fixed-length string of text)
-o	One-way trip (can’t be reversed, original password is gone)
-o	SHA-256 hash algorithm
+-	Guessing attack
+-	Every possible combination
+-	0000
+-	0001
+-	Dictionary
+-	Brute force type attack
+-	Uses large dictionary list
+-	Rainbow Tables (medium time)
+-	Use precomputed chains (calculations done ahead of time)
+-	Chains are stored in tables
+-	Time reduction
+-	Tables can be vary large files
+-	Spraying
+-	Cracking multiple accounts at once
+-	Adding Salt
+-	Random data added to a password when hashing (doesn’t work with rainbow tables)
+-	Salting the Hash
+-	Each user gets a different random hash
+-	Storing Passwords
+-	Use a hash (fixed-length string of text)
+-	One-way trip (can’t be reversed, original password is gone)
+-	SHA-256 hash algorithm
 Physical Attacks
-•	Malicious USB cable, OS identifies it as a HID (Human Interface Device)
-o	Cable takes over once plugged in (downloads and installs malware)
-•	Malicious flash drive
-o	Older OS would automatically run files
-o	Could still act as a HID/keyboard
-o	Attackers can load malware in documents (pdf files, spreadsheets)
-o	Can be configured as a boot device
-o	Acts as an Ethernet adapter
-•	Skimming
-o	Stealing credit card information
-	Copy data from the magnetic stripe (card number, exp date, name)
-o	ATM skimming 
-	Includes a small camera to watch for your pin
-o	Card Cloning
-	Get card details from a skimmer (clone original card)
-	Only magnetic stripe works, chip can’t be cloned
+-	Malicious USB cable, OS identifies it as a HID (Human Interface Device)
+-	Cable takes over once plugged in (downloads and installs malware)
+-	Malicious flash drive
+-	Older OS would automatically run files
+-	Could still act as a HID/keyboard
+-	Attackers can load malware in documents (pdf files, spreadsheets)
+-	Can be configured as a boot device
+-	Acts as an Ethernet adapter
+-	Skimming
+-	Stealing credit card information
+-	Copy data from the magnetic stripe (card number, exp date, name)
+-	ATM skimming 
+-	Includes a small camera to watch for your pin
+-	Card Cloning
+-	Get card details from a skimmer (clone original card)
+-	Only magnetic stripe works, chip can’t be cloned
 Adversairal Artificial Intelligence
-•	Machine Learning
-o	Computer identify patterns in data and improve their predictions
-o	Requires a lot of training data
-o	Ex. Stop spam, recommend products or movies
-•	Poisoning the training data
-o	Confuse the AI, attacker sends modified training data
-•	Evasion attacks
-o	AI is only as good as the training
-o	Attacker finds holes and limitations
-•	Securing the learning algorithm 
-o	Check training data
-o	Constantly retrain with new data
+-	Machine Learning
+-	Computer identify patterns in data and improve their predictions
+-	Requires a lot of training data
+-	Ex. Stop spam, recommend products or movies
+-	Poisoning the training data
+-	Confuse the AI, attacker sends modified training data
+-	Evasion attacks
+-	AI is only as good as the training
+-	Attacker finds holes and limitations
+-	Securing the learning algorithm 
+-	Check training data
+-	Constantly retrain with new data
 
 
 
